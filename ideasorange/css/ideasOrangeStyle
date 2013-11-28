@@ -1,0 +1,55 @@
+/* header section */
+
+
+
+.masthead {
+    width:100%;
+    padding:7.25em 0;
+    } 
+.inner {
+  width:96%;
+  max-width:60em;
+  margin:0 auto;
+  overflow:auto;
+  }
+.inner_no_overflow {
+  width:96%;
+  max-width:60em;
+  margin:0 auto;
+  }
+.border_top {
+ border-top:solid 1px #eee;
+ border-bottom:solid 1px #eee;
+ padding:4em 0 0 0;
+}
+.masthead h1 {
+  width:100%;
+  text-align:center;
+  font-family:brandon-grotesque, Helvetica neue, Arial, sans-serif;
+  font-size:2.2em;
+  line-height:1em;
+  letter-spacing:1px;
+  }
+  h1 span {
+    margin:0 0 0 -2px;
+  }
+header a, .subnav a, .info_block a:hover, .subnav p a:hover, .portfolio_nav a, article a:hover {
+  color:#333;
+  }
+header a:hover, .subnav a:hover, article a, .info_block a, .subnav p a, .portfolio_nav a:hover { 
+    color:#c22a09; 
+  }
+.menu {
+  text-align:center;
+  display:block;
+  width:100%;
+  padding:0.277em 0 0 0;
+  font-size:0.9em;
+  }
+.menu li {
+  display:inline;
+  padding:0 9px;
+  }
+.menu a {
+  display:inline-block;
+  }
