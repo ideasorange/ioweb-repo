@@ -26,34 +26,59 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 	
+	<!-- Js para imagen rotativa -->
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	
 	<script type="text/javascript" src="jquery.fullPage.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+
 			var pepe = $.fn.fullpage({
-				slidesColor: ['#ff6600', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				slidesColor: ['url(imgs/naranja.jpg)', 'url(imgs/salmon.jpg)', 'url(imgs/azulGastado.jpg)', 'url(imgs/verde.jpg)'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				menu: '#menu'
 			});
-			
+
+						
 		});
 	</script>
 
 </head>
 <body>
-<div style="position: fixed;z-index:99; top: 0; right: 0; border: 0;">Acá van los links a las redes sociales</div>
+<!--<div style="position: fixed;z-index:99; top: 0; right: 0; border: 0;">Acá van los links a las redes sociales</div>-->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-<ul id="menu">
+	<ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
 	<li data-menuanchor="secondPage"><a href="#secondPage">Que hacemos</a></li>
 	<li data-menuanchor="3rdPage"><a href="#3rdPage">Quienes somos</a></li>
 	<li data-menuanchor="4thpage"><a href="#4thpage">Contacto</a></li>
-</ul>
+	</ul>
+
 
 <div class="section" id="section0">
-	<h1>ideasOrange</h1>
-	<p>Create Beautiful Fullscreen Scrolling Websites</p>
-	<img src="imgs/fullPage.png" alt="fullPage" />
+
+	<h1 id="titulo_inicio">ideasOrange</h1>
+	<p>Apacionados por nuestro trabajo ayudamos a las emprersas con grandes Ideas, trabajando en conjunto, brindando soporte y desarrollando Software acorde a las necesidades de cada Cliente.
+		Hacemos una diferencia proporcionando servicios en informatica, conscientes de la necesidad de soluciones globales que tienen las empresas hoy en dia para optimizar su trabajo.</p>
+		<!--<img src="imgs/cuadro1.png" style="border-radius: 0px;" alt="fullPage" />-->
+
+		
+       
+				<div id="fc-slideshow" class="fc-slideshow" style="float: left; left: 100px;">
+					<ul class="fc-slides">
+						<li><img src="images/hongo.jpg" /><h3>equipo</h3></li>
+						<li><img src="images/la foto 1.jpg" /><h3>planificacion</h3></li>
+						<li><img src="images/la foto 2.jpg" /><h3>agilidad</h3></li>
+						<li><img src="images/la foto 3.jpg" /><h3>tecnologia</h3></li>
+						<li><img src="images/la foto 4.jpg" /><h3>compromiso</h3></li>
+					</ul>
+				</div>
+			 
+    
+
 </div>
 <div class="section" id="section1">
     <div class="slide">
@@ -88,22 +113,29 @@
 </div>
 <div class="section" id="section2">
 	<div class="intro">
-		<h1>Example</h1>
-		<p>HTML markup example to define 4 sections.</p>
-		<img src="imgs/example2.png" alt="example" />
+		<!--<h1>Example</h1>
+		<p>HTML markup example to define 4 sections.</p>-->
+		<img class="imagenNosotros" src="imgs/nosotros002.gif" alt="Nosotros" />
+		<div id="divNosotros">
+			<h1>Quienes Somos?</h1>
+			<p>Sabemos que las personas pueden tener muchas ideas a lo largo de todo el día, también sabemos que esas ideas solo duran unos segundos en la cabeza y muchas veces algunas son recurrentes.
+Sabemos que las hay de distintas formas y con diversos objetivos, están las ideas fijas que son como una obsesión o pensamiento recurrente del que las personas no podemos escapar.
+Están las ideas remótas sobre algunas cosas cuando nuestros conocimientos carecen de presición, posiblemente porque nunca nos hemos topado con ese tema previamente, porque no ha investigado lo suficiente o bien porque se trata de un plan que aún no se sabe si será llevado a cabo</p>
+		</div>
 	</div>
 </div>
 <div class="section" id="section3">
-	<div class="intro">
-		<h1>Working On Tablets</h1>
-		<p>
-			Designed to fit to different screen sizes as well as tablet and mobile devices.
-			<br /><br /><br /><br /><br /><br />
-		</p>
-	</div>
-	<img src="imgs/tablets.png" alt="tablets" />
+	
+	
 </div>
 
+<script src="js/jquery.flipshow.js"></script>
+		<script>
+			$( function() {
+				
+				$( '#fc-slideshow' ).flipshow();
 
+			} );
+		</script>
 </body>
 </html>

@@ -59,7 +59,7 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;	
+	font-size: 8em;	
 }
 p{
 	font-size: 2em;
@@ -68,13 +68,16 @@ p{
 	text-align:center;
 }
 #menu li {
-	display:inline-block;
-	margin: 10px;
+	display: inline-block;
+	margin: 0px -2px -2px -2px;
 	color: #000;
+	height: 100%;
+	width: 25%;
+	text-align: center;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px; 
-            border-radius: 10px; 
+	-webkit-border-radius: 0px; 
+            border-radius: 0px; 
 }
 #menu li.active{
 	background:#666;
@@ -82,8 +85,10 @@ p{
 	color: #fff;
 }
 #menu li a{
-	text-decoration:none;
+	text-decoration: none;
 	color: #000;
+	font-family: 'Allan', cursive;
+	font-size: 2em;
 }
 #menu li.active a:hover{
 	color: #000;
@@ -99,19 +104,41 @@ p{
 #menu li.active a{
 	color: #fff;
 }
+
 #menu{
-	position:fixed;
+	background-color: black;
+	position: fixed;
 	top:0;
 	left:0;
-	height: 40px;
+	height: 60px;
 	z-index: 70;
 	width: 100%;
 	padding: 0;
-	margin:0;
+	margin: 0;
 }
-#section0 img,
+
+/*#section0
+{
+	background-image: url(imgs/naranja.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+}
+#section1
+{
+	background-image: url(imgs/salmon.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+}
+#section2
+{
+	background-image: url(imgs/azulGastado.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+}
+*/
 #section1 img{
 	margin: 20px 0 0 0;
+	position: absolute; left: 10%; top: 10%;
 }	
 #section2 img{
 	margin: 20px 0 0 52px;	
@@ -170,3 +197,53 @@ p{
 	position: absolute;
 	z-index: 1;
 }
+
+/* Estilos Seccion Quienes sommos*/
+.imagenNosotros{
+	float: left;
+}
+
+#divNosotros{
+	/*float: right;*/
+	position: absolute;
+	top: 80px;
+	left: 580px;
+}
+
+#divNosotros h1{
+	color: #ff5300;
+	/*color: white;*/
+  	font-family: 'Allan', cursive;
+ 	font-size: 100px;
+ 	font-style: normal
+}
+
+#divNosotros p{
+	color: white;	
+	text-align: justify;
+}
+
+/* Estilos Seccion Que Nos Gusta Hacer */
+ #titulo_inicio {
+ 	font-family: 'Allan', cursive;
+ 	font-style: normal;
+ 	color: #FFFFFF;
+ 	position: absolute;
+ 	top: 20%;
+ 	left: 54%;
+ 	padding-right: 100px;
+ 	margin:0px;
+ }
+
+ #section0 p{
+ 	font-family: 'Allan', cursive;
+ 	font-size: 20px;
+ 	color: white;
+ 	position: absolute;
+ 	top: 45%;
+ 	left: 50%;
+ 	padding-right: 80px;
+ 	margin:0px;
+ 	text-align: justify;
+ }
+

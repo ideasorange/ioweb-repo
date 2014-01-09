@@ -137,7 +137,7 @@
 			}
 			
 			if (typeof options.slidesColor[index] !==  'undefined') {
-				$(this).css('background-color', options.slidesColor[index]);
+				$(this).css('background-image', options.slidesColor[index]);
 			}
 
 			if (typeof options.anchors[index] !== 'undefined') {
