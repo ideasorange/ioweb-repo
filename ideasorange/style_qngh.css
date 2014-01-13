@@ -59,14 +59,12 @@
 
  } 
 
+/* Estilos Seccion Que Nos Gusta Hacer */
 #titulo_qngh h1{
 	color: #FFFFFF;
 	/*color: white;*/
   	font-family: 'Allan', cursive;
  	font-size: 100px;
-<<<<<<< HEAD
- 	font-style: normal
-=======
  	font-style: normal;
  	float:left;
  	padding-left: 8%;
@@ -83,5 +81,4 @@
 	padding-left: 200px;
 	padding-top: 12%;
 	color: #FFFFFF;
->>>>>>> parent of 53dba73... revert al commit de juan
 }

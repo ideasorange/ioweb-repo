@@ -74,7 +74,7 @@ p{
 	height: 100%;
 	width: 25%;
 	text-align: center;
-	background: #fff;
+	background:#fff;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 0px; 
             border-radius: 0px; 
@@ -120,9 +120,7 @@ p{
 	background-image: url(imgs/fondo7.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-
 }
-
 
 #section1
 {
@@ -229,17 +227,12 @@ p{
 
  #section0 p{
  	font-family: 'Allan', cursive;
- 	font-size: 25px;
+ 	font-size: 20px;
  	color: white;
  	position: absolute;
  	top: 45%;
- 	left: 45%;
+ 	left: 50%;
  	padding-right: 80px;
  	margin:0px;
  	text-align: justify;
-<<<<<<< HEAD
  }
-
-=======
- }
->>>>>>> parent of 53dba73... revert al commit de juan

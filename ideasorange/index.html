@@ -18,6 +18,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Pompiere|Short+Stack|Finger+Paint|Merienda:400,700|Text+Me+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lilita+One|Allan|PT+Mono|Wendy+One|Della+Respira|IM+Fell+Great+Primer|Chewy|Amaranth|Rock+Salt' rel='stylesheet' type='text/css'>
+
+	<!-- links css y js para contacto-->
+	<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel='stylesheet' type='text/css'>
+    <link href="css/jquery.FlowupLabels.css" rel='stylesheet' type='text/css'>
+
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
@@ -62,11 +68,7 @@
 <div class="section" id="section0">
 
 	<h1 id="titulo_inicio">ideasOrange</h1>
-<<<<<<< HEAD
-	<p>Apasionados por nuestro trabajo ayudamos a las empresas con grandes Ideas, trabajando en conjunto, brindando soporte y desarrollando Software acorde a las necesidades de cada Cliente.
-=======
 	<p>Apacionados por nuestro trabajo ayudamos a las emprersas con grandes Ideas, trabajando en conjunto, brindando soporte y desarrollando Software acorde a las necesidades de cada Cliente.
->>>>>>> parent of 53dba73... revert al commit de juan
 		Hacemos una diferencia proporcionando servicios en informatica, conscientes de la necesidad de soluciones globales que tienen las empresas hoy en dia para optimizar su trabajo.</p>
 		<!--<img src="imgs/cuadro1.png" style="border-radius: 0px;" alt="fullPage" />-->
 
@@ -90,8 +92,8 @@
 		<div class="intro">
 			<div id="titulo_qngh">
 				<h1>Mirá lo que nos gusta hacer</h1>
-				<p></p>
-				<img src="imgs/like.png" alt="slider" />
+				<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>				
+				<img src="imgs/portada_qngh_1_redondo.png" alt="slider" />							
 			</div>
 		</div>
 		
@@ -145,8 +147,41 @@ Están las ideas remótas sobre algunas cosas cuando nuestros conocimientos care
 	</div>
 </div>
 <div class="section" id="section3">
-	
-	
+		<div id='formContainer'>
+    	<div id='formHeader'>
+			<h3>Contacto</h3>
+		</div>
+		
+		<form id='formBody' class='FlowupLabels'>
+			<p class='rf_notice'>
+				Su información será confidencial y sólo se recoge para satisfacer nuestra curiosidad.
+			</p>
+      
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_name'>Nombre:</label>
+				<input class='fl_input' type='text' id='rf_name' />
+			</div>
+
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_email'>Email:</label>
+				<input class='fl_input' type='email' id='rf_email' />
+			</div>
+			
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_company'>Compañia:</label>
+				<input class='fl_input' type='text' id='rf_company' />
+			</div>
+
+			<div class='fl_wrap'>
+				<label class='fl_label' for='rf_phone'>Teléfono:</label>
+				<input class='fl_input' type='tel' id='rf_phone' />
+			</div>
+			
+			<p>
+				<input class='rf_submit' type='submit' value='Enviar' />
+			</p>
+		</form>
+	</div>	
 </div>
 
 <script src="js/jquery.flipshow.js"></script>
@@ -157,5 +192,9 @@ Están las ideas remótas sobre algunas cosas cuando nuestros conocimientos care
 
 			} );
 		</script>
+
+
+<script src='js/jquery.FlowupLabels.js'></script>
+<script src='js/main.js'></script>
 </body>
 </html>
