@@ -58,3 +58,11 @@
  	color: #000000;
 
  } 
+
+#titulo_qngh h1{
+	color: #FFFFFF;
+	/*color: white;*/
+  	font-family: 'Allan', cursive;
+ 	font-size: 100px;
+ 	font-style: normal
+}
