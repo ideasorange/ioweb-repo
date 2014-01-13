@@ -64,5 +64,24 @@
 	/*color: white;*/
   	font-family: 'Allan', cursive;
  	font-size: 100px;
+<<<<<<< HEAD
  	font-style: normal
+=======
+ 	font-style: normal;
+ 	float:left;
+ 	padding-left: 8%;
+}
+
+
+#titulo_qngh img{
+	float: right;
+	padding-right: 200px;
+}
+
+#titulo_qngh p{
+	float: left;
+	padding-left: 200px;
+	padding-top: 12%;
+	color: #FFFFFF;
+>>>>>>> parent of 53dba73... revert al commit de juan
 }
