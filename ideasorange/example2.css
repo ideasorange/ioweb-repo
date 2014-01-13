@@ -59,7 +59,7 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 8em;	
+	font-size: 6em;	
 }
 p{
 	font-size: 2em;
@@ -104,7 +104,6 @@ p{
 #menu li.active a{
 	color: #fff;
 }
-
 #menu{
 	background-color: black;
 	position: fixed;
@@ -116,30 +115,31 @@ p{
 	padding: 0;
 	margin: 0;
 }
-
-/*#section0
+#section0
 {
-	background-image: url(imgs/naranja.jpg);
- 	background-repeat: no-repeat;
- 	background-size: 100%;
+	background-image: url(imgs/fondo7.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
+
 #section1
 {
-	background-image: url(imgs/salmon.jpg);
- 	background-repeat: no-repeat;
- 	background-size: 100%;
+	background-image: url(imgs/fondo2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
+
 #section2
 {
-	background-image: url(imgs/azulGastado.jpg);
- 	background-repeat: no-repeat;
- 	background-size: 100%;
+	background-image: url(imgs/fondo10.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
-*/
+
 #section1 img{
 	margin: 20px 0 0 0;
-	position: absolute; left: 10%; top: 10%;
-}	
+}
+
 #section2 img{
 	margin: 20px 0 0 52px;	
 }
@@ -224,16 +224,6 @@ p{
 }
 
 /* Estilos Seccion Que Nos Gusta Hacer */
- #titulo_inicio {
- 	font-family: 'Allan', cursive;
- 	font-style: normal;
- 	color: #FFFFFF;
- 	position: absolute;
- 	top: 20%;
- 	left: 54%;
- 	padding-right: 100px;
- 	margin:0px;
- }
 
  #section0 p{
  	font-family: 'Allan', cursive;
@@ -247,3 +237,10 @@ p{
  	text-align: justify;
  }
 
+#titulo_qngh h1{
+	color: #FFFFFF;
+	/*color: white;*/
+  	font-family: 'Allan', cursive;
+ 	font-size: 100px;
+ 	font-style: normal
+}

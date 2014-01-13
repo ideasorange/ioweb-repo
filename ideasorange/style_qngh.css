@@ -1,0 +1,60 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+ #titulo_ds
+ {
+ 	font-family: 'Voces', cursive;
+ 	font-size: 60px;
+ 	font-style: normal;
+ }
+
+#texto_ds
+ {
+ 	padding-top: 50px; 	
+ 	font-family:'Text Me One', sans-serif;
+ 	text-align: left;
+ 	font-size: 15px;
+ 	font-style: normal;
+ 	color: #FFFFFF; 
+
+ } 
+
+ #imagen_footer_ds
+ { 	
+ 	background-image:url(imgs/agile.png);
+ 	background-position: bottom right;
+ 	background-repeat: no-repeat;	
+ 	width: 50%;
+ 	margin: 0 auto;
+ 	height: 50px;
+ }
+
+ #titulo_pe
+ {
+ 	font-family: 'Merienda', cursive;
+ 	font-size: 70px;
+ 	font-style: normal;
+ }
+
+ #titulo_inicio
+ {
+ 	/*font-family: 'Permanent Marker', cursive;*/
+ 	font-family: 'Allan', cursive;
+ 	font-size: 150px;
+ 	font-style: normal;
+ 	/*color: #fdca96;*/
+ 	color:#FFFFFF;
+ 	float: right;
+ 	padding-right: 100px;
+ 	margin:0px;
+ }
+
+ #texto_pe
+ {
+	font-family: 'Amaranth', cursive;
+ 	text-align: left;
+ 	font-size: 15px;
+ 	font-style: normal;
+ 	color: #000000;
+
+ } 

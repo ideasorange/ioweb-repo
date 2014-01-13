@@ -12,6 +12,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="example2.css" />
+	<link rel="stylesheet" type="text/css" href="style_qngh.css" />
 
 	<link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
@@ -36,7 +37,7 @@
 		$(document).ready(function() {
 
 			var pepe = $.fn.fullpage({
-				slidesColor: ['url(imgs/naranja.jpg)', 'url(imgs/salmon.jpg)', 'url(imgs/azulGastado.jpg)', 'url(imgs/verde.jpg)'],
+				slidesColor: ['url(imgs/naranja.jpg)', 'url(imgs/verde.jpg)', 'url(imgs/azulGastado.jpg)','url(imgs/salmon.jpg)' ],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				menu: '#menu'
 			});
@@ -83,31 +84,46 @@
 <div class="section" id="section1">
     <div class="slide">
 		<div class="intro">
-			<h1>Mirá lo que nos gusta hacer</h1>
-			<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
-			<img src="imgs/slider.png" alt="slider" />
+			<div id="titulo_qngh">
+				<h1>Mirá lo que nos gusta hacer</h1>
+				<p></p>
+				<img src="imgs/like.png" alt="slider" />
+			</div>
 		</div>
 		
 	</div>
     <div class="slide">
 		<div class="intro">
-			<img src="imgs/1.png" alt="simple" />
-			<h1>Simple</h1>
-			<p>Easy to use. Configurable and customizable.</p>
+			<h1>Desarrollamos Sitios Web</h1>
+			<img src="imgs/htm5+css3+js.png" alt="simple" />			
+			<p>Creatividad + HTML5 + CSS3 + JavaScript </p> 
+			<p>Hacen que hagamos de tu sitio web algo diferente, novedoso</p>
+			<p>y desarrollado con las últimas tecnologías.</p>
 		</div>
 	</div>
     <div class="slide">
 		<div class="intro">
-			<img src="imgs/2.png" alt="Cool" />
-			<h1>Cool</h1>
-			<p>It just looks cool. Impress everybody with a simple and modern web design!</p>
+			<div id="titulo_ds">Desarrollamos Software</div>
+			<img src="imgs/sprint.png" alt="Sprint" />
+			<div id="texto_ds">
+				<p>Convertimos tus problemas en nuestras ideas para darte las mejores soluciones de software.</p>			
+				<p>Nos movemos rápido: Cada uno de nuestros proyecto es guiado por metodología ágil validando nuestras decisiones a lo largo del camino.</p>	
+				<div id="imagen_footer_ds"></div>							
+			</div>
 		</div>
 	</div>
     <div class="slide">
-		<div class="intro">
-			<img src="imgs/3.png" alt="Compatible" />
-			<h1>Compatible</h1>
-			<p>Working in modern and old browsers too! IE 8 users don't have the fault of using that horrible browser! Lets give them a chance to see your site in a proper way!</p>
+		<div class="intro">			
+			<img src="imgs/moodle.png" alt="Compatible" />
+			<div id="titulo_pe">Plataformas Educativas</div>
+			<div id="texto_pe">
+				<p>Te damos la idea para que tu proyecto educativo sea diferente...</p>
+				<p>...implementamos moodle, la plataforma virtual de aprendizaje de código abierto más popular en el mundo,
+				personálizandola para dar soluciones a las necesidades de su institución educativa.
+				Esta potente herramienta mejora los procesos de enseñanza-aprendizaje extendiendo y mejorando la relación
+				alumno-profesor e integrándola con el uso de internet con la importancia que esto tiene para los
+				tiempos que corren.</p>
+			</div>
 		</div>
 	</div>
 </div>
