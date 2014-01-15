@@ -92,7 +92,7 @@
 		<div class="intro">
 			<div id="titulo_qngh">
 				<h1>Mirá lo que nos gusta hacer</h1>
-				<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>				
+				<p>Creemos que vivir es hacer realidad tus ideas...por eso te proponemos ser la herramienta que te ayude a hacer de tu idea una realidad</p>				
 				<img src="imgs/portada_qngh_1_redondo.png" alt="slider" />							
 			</div>
 		</div>
@@ -152,38 +152,38 @@ Están las ideas remótas sobre algunas cosas cuando nuestros conocimientos care
 			<h3>Contacto</h3>
 		</div>
 		
-		<form id='formBody' class='FlowupLabels'>
+		<form id='formBody' class='FlowupLabels' action='contacto.php' method='post'>
 			<p class='rf_notice'>
 				Su información será confidencial y sólo se recoge para satisfacer nuestra curiosidad.
 			</p>
       
 			<div class='fl_wrap'>
 				<label class='fl_label' for='rf_name'>Nombre:</label>
-				<input class='fl_input' type='text' id='rf_name' />
+				<input class='fl_input' type='text' id='rf_name' name='rf_name' required/>
 			</div>
 
 			<div class='fl_wrap'>
 				<label class='fl_label' for='rf_email'>Email:</label>
-				<input class='fl_input' type='email' id='rf_email' />
+				<input class='fl_input' type='email' id='rf_email' name='rf_email' required/>
 			</div>
 			
 			<div class='fl_wrap'>
 				<label class='fl_label' for='rf_company'>Compañia:</label>
-				<input class='fl_input' type='text' id='rf_company' />
+				<input class='fl_input' type='text' id='rf_company' name='rf_company'/>
 			</div>
 
 			<div class='fl_wrap'>
 				<label class='fl_label' for='rf_phone'>Teléfono:</label>
-				<input class='fl_input' type='tel' id='rf_phone' />
+				<input class='fl_input' type='tel' id='rf_phone' name='rf_phone' />
 			</div>
 
 			<div class='fl_wrap'>
 				<label class='fl_label' for='rf_mensaje'>Mensaje:</label>
-				<input class='fl_input' type='text' id='rf_mensaje' />
+				<input class='fl_input' type='text' id='rf_mensaje' name='rf_mensaje' required/>
 			</div>
 			
 			<p>
-				<input class='rf_submit' type='submit' value='Enviar' />
+				<input id='submit' class='rf_submit' type='submit' value='Enviar' name='submit'/>
 			</p>
 		</form>
 	</div>	

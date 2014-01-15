@@ -74,11 +74,13 @@
 #titulo_qngh img{
 	float: right;
 	padding-right: 200px;
+	width: 40%;
+	height: 40%;
 }
 
 #titulo_qngh p{
 	float: left;
 	padding-left: 200px;
-	padding-top: 12%;
+	padding-top: 9%;
 	color: #FFFFFF;
 }
