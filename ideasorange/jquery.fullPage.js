@@ -27,8 +27,8 @@
 			'loopBottom': false,
 			'loopTop': false,
 			'loopHorizontal': true,
-			'autoScrolling': true,
-			'scrollOverflow': false,
+			'autoScrolling': false,
+			'scrollOverflow': true,
 			'css3': false,
 			'paddingTop': 0,
 			'paddingBottom': 0,
@@ -200,7 +200,8 @@
 		
 
 			
-		}).promise().done(function(){			
+		}).promise().done(function(){		
+			//$.fn.fullpage.setMouseWheelScrolling(false);	
 			$.fn.fullpage.setAutoScrolling(options.autoScrolling);
 
 			$.isFunction( options.afterRender ) && options.afterRender.call( this);

@@ -13,7 +13,7 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = '//localhost/ideasorange';
+window.location.href = 'www.ideasorange.com';
 </script>";
 } else {
 echo 'Falló el envio';
