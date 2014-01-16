@@ -202,6 +202,16 @@
 			
 		}).promise().done(function(){		
 			//$.fn.fullpage.setMouseWheelScrolling(false);	
+			if(isTablet){
+				options.autoScrolling = false;
+				options.scrollOverflow = true;
+			}
+			else
+			{
+				options.autoScrolling = true;
+				options.scrollOverflow = false;	
+			}
+
 			$.fn.fullpage.setAutoScrolling(options.autoScrolling);
 
 			$.isFunction( options.afterRender ) && options.afterRender.call( this);
